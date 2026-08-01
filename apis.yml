@@ -1,7 +1,30 @@
 aid: partsimony
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/partsimony.png
 name: Partsimony
-description: Partsimony is a company surfaced as a portfolio company of techstars and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Partsimony is an intelligent supply chain platform that helps hardware
+  companies turn engineering designs into manufactured products with less time,
+  cost, and friction. Its software analyzes component designs to recommend
+  manufacturing methods, materials, price estimates, and lead times, then
+  matches each part to the optimal manufacturers inside and outside a company's
+  network — batching components for volume leverage across processes like 3D
+  printing, CNC machining, injection molding, castings, electronics, and
+  assemblies. The platform also coordinates RFPs, proposals, orders, messaging,
+  and payment terms between OEMs and their manufacturing partners. Partsimony
+  operates a web application and product documentation but does not currently
+  publish a public developer API. Founded in 2015 and based in Brooklyn, NY;
+  backed by Techstars.
 url: https://raw.githubusercontent.com/api-evangelist/partsimony/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +34,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Supply Chain
+- Manufacturing
+- Hardware
+- Procurement
+- Sourcing
+- Logistics
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +52,24 @@ maintainers:
 common:
 - type: Website
   url: https://partsimony.com/
+- type: Documentation
+  url: https://docs.partsimony.com/partsimony/overview
+- type: Blog
+  url: https://medium.com/partsimony
+- type: SignUp
+  url: https://app.partsimony.com/sign-up#/
+- type: Login
+  url: https://app.partsimony.com/
+- type: PrivacyPolicy
+  url: https://partsimony.com/privacy-policy
+- type: TermsOfService
+  url: https://partsimony.com/terms
+- type: GitHubOrganization
+  url: https://github.com/partsimony
+- type: DomainSecurity
+  url: security/partsimony-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
